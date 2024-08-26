@@ -1,14 +1,14 @@
 $StopWhenPoor = $true #does nothing at this time
 
 $MaxRollCount =    40 #number of 'shooters/points' that will be ran per run
-$BankRoll =     2500 
+[int32]$BankRoll =     2500 
 $PlaceFive =  @(100, 50, 25, 25)
 $PlaceSix =   @(120, 60, 30, 30)
 $placeEight = @(120, 60, 30, 30)
 $placeNine =  @(100, 50, 25, 25)
 
 $PaySixEight =  7/6
-$payFiveNine =  5/4
+$payFiveNine =  7/5
 
 function Roll-Dice {
     param (
